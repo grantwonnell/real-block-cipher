@@ -1,7 +1,7 @@
-#🧊 Custom 32-bit Block Cipher
+# 🧊 Custom 32-bit Block Cipher
 This is a fun experimental block cipher implementation written in C by Grant. It operates on 32-bit blocks using a 64-bit hashed key, custom key scheduling, and XOR-based chaining. The design is heavily inspired by concepts from Feistel networks and modern symmetric encryption schemes.
 
-#🔐 Features
+# 🔐 Features
 32-bit block size
 
 64-bit key (hashed from arbitrary-length input)
@@ -12,7 +12,7 @@ Stream-like chaining using XOR with previous ciphertext
 
 Deterministic encryption & decryption with matching key and IV
 
-#🧪 How It Works
+# 🧪 How It Works
 Key Hashing
 The raw key is hashed into a 64-bit value through bitwise arithmetic and pseudo-random mutation using its own bytes.
 
@@ -28,7 +28,7 @@ Each block is XORed with the previous ciphertext (or IV for the first block), th
 Decryption
 The process reverses the key mixing and XOR chaining to recover the original plaintext.
 
-#📦 Example Usage
+# 📦 Example Usage
 bash
 Copy
 Edit
@@ -41,9 +41,10 @@ Edit
 Before: your message here
 Encrypted: �^...�
 Decrypted: your message here
-⚠️ Disclaimer
+
+# ⚠️ Disclaimer
 This project is not intended for production use. It’s a learning exercise in cryptographic design and implementation. For real-world use, please stick to audited, standardized encryption libraries like AES or ChaCha20.
 
-📚 Credits
+# 📚 Credits
 Created by [Grant]
 
