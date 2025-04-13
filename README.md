@@ -1,5 +1,5 @@
 # 🧊 Custom 32-bit Block Cipher
-This is a fun experimental block cipher implementation written in C by Grant. It operates on 32-bit blocks using a 64-bit hashed key, custom key scheduling, and XOR-based chaining. The design is heavily inspired by concepts from Feistel networks and modern symmetric encryption schemes.
+This is a fun experimental block cipher implementation written in C. It operates on 32-bit blocks using a 64-bit hashed key, custom key scheduling, and XOR-based chaining. The design is heavily inspired by concepts from Feistel networks and modern symmetric encryption schemes.
 
 # 🔐 Features
 32-bit block size
