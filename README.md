@@ -29,7 +29,7 @@ Decryption
 The process reverses the key mixing and XOR chaining to recover the original plaintext.
 
 # 📦 Example Usage
-<pre> ```bash $ gcc cipher.c -o cipher $ ./cipher "hello world" Before: hello world Encrypted: ÆÏ… Decrypted: hello world ``` </pre>
+<pre> bash $ gcc cipher.c -o cipher $ ./cipher "hello world" Before: hello world Encrypted: ÆÏ… Decrypted: hello world </pre>
 
 # ⚠️ Disclaimer
 This project is not intended for production use. It’s a learning exercise in cryptographic design and implementation. For real-world use, please stick to audited, standardized encryption libraries like AES or ChaCha20.
